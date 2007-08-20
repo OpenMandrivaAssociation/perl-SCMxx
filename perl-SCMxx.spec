@@ -10,7 +10,7 @@ Url:		http://sourceforge.net/projects/gscmxx/
 License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
-BuildRequires:	perl, perl-devel
+BuildRequires:	perl-devel
 BuildRequires:  scmxx
 Requires:  scmxx
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
