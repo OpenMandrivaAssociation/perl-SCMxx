@@ -13,6 +13,7 @@ Source0:	%{module}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:  scmxx
 Requires:  scmxx
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 Buildarch:	noarch
 Provides: perl(SCMxx::Config)
 
