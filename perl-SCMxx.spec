@@ -1,6 +1,6 @@
 %define module 	SCMxx
 %define version 0.4.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary:	Perl module to access siemens cell phonebooks
 Name: 		perl-%{module}
