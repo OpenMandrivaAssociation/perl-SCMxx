@@ -25,6 +25,8 @@ Perl module to access siemens cell phonebooks.
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
+# (tv) fix build:
+perl -pi -e 's!/usr/local/share/man/!/usr/share/man/!; s!INSTALLDIRS = site!INSTALLDIRS = vendor!' Makefile
 %{__make}
 
 %install
@@ -40,4 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/%{module}.pm
 %{perl_vendorlib}/%{module}
 %{_mandir}/*/*
-
