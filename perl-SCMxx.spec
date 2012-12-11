@@ -42,3 +42,33 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/%{module}.pm
 %{perl_vendorlib}/%{module}
 %{_mandir}/*/*
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.4.1-6mdv2010.0
++ Revision: 433637
+- fix build
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.4.1-5mdv2009.0
++ Revision: 241854
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+- simplify buildrequires
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon May 07 2007 Olivier Thauvin <nanardon@mandriva.org> 0.4.1-3mdv2008.0
++ Revision: 23912
+- rebuild
+
+
+* Tue Jun 14 2005 Götz Waschk <waschk@mandriva.org> 0.4.1-2mdk
+- fix deps
+- fix provides
+- fix buildrequires
+
+* Mon Nov 15 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.4.1-1mdk
+- new
+
