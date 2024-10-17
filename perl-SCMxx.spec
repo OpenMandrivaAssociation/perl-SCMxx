@@ -6,7 +6,7 @@ Summary:	Perl module to access siemens cell phonebooks
 Name: 		perl-%{module}
 Version: 	%{version}
 Release: 	%{release}
-Url:		http://sourceforge.net/projects/gscmxx/
+Url:		https://sourceforge.net/projects/gscmxx/
 License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
